@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {AppChampionSelectorService} from "./app-champion-selector.service";
 import {RandomNumberService} from "./random-number.service";
-import { HttpClient} from "@angular/common/http";
 import {NgForOf} from "@angular/common";
 
 interface Champion {
